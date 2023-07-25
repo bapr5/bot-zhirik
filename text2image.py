@@ -39,3 +39,5 @@ def split_input(user_string, line_size):
     output.append(" ".join(curline))
     return "\n".join(output)
 #inserttext(Image.open('templates/default.png'), "пыне сдохнуть от спида")
+def gen_image():
+    pass
