@@ -35,6 +35,9 @@ async def args(message: types.Message):
     caption="жирик"
 )
     remove("buffer.png")
+@dp.message(Command("info"))
+async def info(message: types.Message):
+    await message.reply("бот был сделан по приколу за несколько часов, автор - @awwcrap, сурсы бота (зачем они тебе) - https://github.com/bapr5/bot-zhirik")
     
 
 async def main():
